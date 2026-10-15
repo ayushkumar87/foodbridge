@@ -83,7 +83,7 @@ python waste_risk.py
 | Node.js integration | Express + Mongoose REST API |
 | Python integration | `analytics/waste_risk.py` uses PyMongo to identify urgent listings |
 
-## Viva talking points
+## talking points
 
 - MongoDB fits this app because food listings can have flexible tags, pickup details, and different user roles without many SQL joins.
 - The `pickup` object is embedded because it only belongs to one listing. The donor and claims are referenced because they are reused across many documents.
